@@ -6,21 +6,21 @@
 /*   By: mforest- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 03:26:09 by mforest-          #+#    #+#             */
-/*   Updated: 2024/11/03 06:44:59 by mforest-         ###   ########.fr       */
+/*   Updated: 2024/11/05 01:48:46 by mforest-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-# ifndef buff_size
-#  define buff_size 5
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 1
 # endif
 
+# include <unistd.h>
 # include <stdlib.h>
 # include <sys/types.h>
 # include <sys/uio.h>
-# include <unistd.h>
 
 typedef struct s_list
 {
