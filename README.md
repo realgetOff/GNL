@@ -29,7 +29,7 @@ This project taught me how to read from a file descriptor and use static variabl
 ## HOW TO USE
 #### 1º - Clone the repository
 ```git
-git clone git@github.com:jotavare/get_next_line.git
+git clone https://github.com/realgetOff/GNL.git
 ```
 
 #### 2º - Enter the project folder
@@ -42,7 +42,6 @@ cd get_next_line/get_next_line
 ```bash
 [Flags] -Wall -Wextra -Werror
 [Mandatory] cc [Flags] main.c get_next_line.c get_next_line_utils.c
-[Bonus] cc [Flags] main.c get_next_line_bonus.c get_next_line_utils_bonus.c
 ```
 
 #### 4º - BUFFER_SIZE can be specified at compilation to override the default BUFFER_SIZE
@@ -50,7 +49,6 @@ cd get_next_line/get_next_line
 ```bash
 [Flags] -Wall -Wextra -Werror -D BUFFER_SIZE=[SIZE] 
 [Mandatory] cc [Flags] main.c get_next_line.c get_next_line_utils.c
-[Bonus] cc [Flags] main.c get_next_line_bonus.c get_next_line_utils_bonus.c
 ```
 
 #### 5º - Execution with one or multiple file descriptors/standard input
@@ -70,8 +68,8 @@ cd get_next_line/get_next_line
 
 ## BONUS
 - [x] Use only one static variable.
-- [x] Manage multiple file descriptors at the same time.
-- [x] Bonus files should include a suffix `_bonus.[c/h]`.
+- [ ] Manage multiple file descriptors at the same time.
+- [ ] Bonus files should include a suffix `_bonus.[c/h]`.
 
 ## NORMINETTE
 > At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
